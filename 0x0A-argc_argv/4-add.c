@@ -7,7 +7,7 @@
 	 * @str: array str
 	 * Return: Always 0 (Success)
 	 */
-	int check_num(char *str)
+	int check_num(char *str /*Declaring variables*/) /*Declaring variables*/
 	{
 		/*Declaring variables*/
 		unsigned int count;
@@ -29,7 +29,7 @@
 	 * @argv: Arguments
 	 * Return: Always 0 (Success)
 	 */
-	int main(int argc, char *argv[])
+	int main(int argc, char *argv[]) /*Declaring variables*/
 	{
 		/*Declaring variables*/
 		int count;
