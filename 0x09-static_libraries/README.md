@@ -1,0 +1,3 @@
+#0x09. C - Static_libraries
+creating a static library to use with the main files....
+
