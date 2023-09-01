@@ -24,7 +24,6 @@ unsigned int binary_to_uint(const char *b)
 
 	return (result);
 }
-
 int main(void)
 {
 	const char *binary_str = "1100101";
@@ -41,4 +40,3 @@ int main(void)
 
 	return (0);
 }
-
