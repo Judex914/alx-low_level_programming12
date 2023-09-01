@@ -24,19 +24,3 @@ unsigned int binary_to_uint(const char *b)
 
 	return (result);
 }
-int main(void)
-{
-	const char *binary_str = "1100101";
-	unsigned int result = binary_to_uint(binary_str);
-
-	if (result == 0 && binary_str != NULL)
-	{
-		printf("Invalid binary string\n");
-	}
-	else
-	{
-		printf("Converted value: %u\n", result);
-	}
-
-	return (0);
-}
